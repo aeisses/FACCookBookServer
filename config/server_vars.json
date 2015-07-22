@@ -1,5 +1,6 @@
 {
   "PORT": "number",
   "BASE_MEDIA_URL": "string",
-  "DATABASE_URL": "string"
+  "DATABASE_URL": "string",
+  "POPULAR_LIMIT": "number"
 }

@@ -2,5 +2,6 @@
   "PORT": "number",
   "BASE_MEDIA_URL": "string",
   "DATABASE_URL": "string",
-  "POPULAR_LIMIT": "number"
+  "POPULAR_LIMIT": "number",
+  "SECRET": "string"
 }

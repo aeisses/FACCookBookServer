@@ -18,6 +18,7 @@
   "homepage": "https://github.com/aeisses/FACCookBookServer",
   "dependencies": {
     "async": "1.4.0",
+    "body-parser": "1.13.2",
     "express": "4.13.1",
     "lodash": "3.10.0",
     "sequelize": "3.4.1"

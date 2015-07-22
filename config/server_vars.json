@@ -1,4 +1,5 @@
 {
   "PORT": "number",
-  "BASE_MEDIA_URL": "string"
+  "BASE_MEDIA_URL": "string",
+  "DATABASE_URL": "string"
 }

@@ -7,10 +7,16 @@ function main() {
 
   var cookbookServer = new CookbookServer(config.read());
 
-  cookbookServer.configure();
-  cookbookServer.start();
+  return cookbookServer.configure()
+    .then(function() {
+      return cookbookServer.start();
+    })
+    .fail(function(err) {
+      console.log('Failed to start server:', err.message);
+      process.exit(1);
+    });
 }
 
 if (require.main === module) {
-  main();
+  return main();
 }

@@ -2,8 +2,10 @@
 'use strict';
 
 function main() {
-  var CookbookServer = require('../lib/api');
-  var cookbookServer = new CookbookServer();
+  var config = require('../lib/config');
+  var CookbookServer = require('../lib/api').CookbookServer;
+
+  var cookbookServer = new CookbookServer(config.read());
 
   cookbookServer.configure();
   cookbookServer.start();

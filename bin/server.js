@@ -11,7 +11,7 @@ function main() {
     .then(function() {
       return cookbookServer.start();
     })
-    .fail(function(err) {
+    .catch(function(err) {
       console.log('Failed to start server:', err.message);
       process.exit(1);
     });

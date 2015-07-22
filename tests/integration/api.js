@@ -12,11 +12,11 @@ describe('Server Integration', function() {
 
   before(function(done) {
     strap.start(done);
-  })
+  });
   after(function(done) {
     strap.stop(done);
   });
-  
+
   it('returns 200 ok for /status route', function (done) {
     client.request({ path: '/status' }, function (err, res, body) {
       if (err) {

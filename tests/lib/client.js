@@ -62,7 +62,6 @@ Client.prototype.request = function(opts, cb) {
     timeout: 2500 // This shouldn't need to be this high
   };
 
-  var self = this;
   request(reqOpts, function (err, res, data) {
     if (err) {
       return cb(err);
@@ -73,7 +72,7 @@ Client.prototype.request = function(opts, cb) {
       try {
         data = JSON.parse(data);
       } catch (err) {
-        log.error('Error parsing response', data);
+        console.error('Error parsing response', data);
         return cb(err);
       }
     }

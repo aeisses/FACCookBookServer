@@ -2,7 +2,7 @@
 
 var _ = require('lodash');
 
-var CookbookServer = require('../../lib/api');
+var CookbookServer = require('../../lib/api').CookbookServer;
 
 module.exports = Bootstrap;
 
@@ -19,7 +19,7 @@ function Bootstrap (cfg) {
 
 Bootstrap.prototype.config = function () {
   return this._cbServer._config;
-}
+};
 
 Bootstrap.prototype.start = function (cb) {
   this._cbServer.start(cb);

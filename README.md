@@ -18,3 +18,14 @@ Ensure you have `gulp` installed globally (`npm install -g gulp`) then run
 
 You can run the tests automatically after every change by using the `gulp
 watch` command.
+
+## Making Requests
+
+You need to first make a `GET` request to `/create` to get a token. All other end
+points require this token in the header with the word "Bearer" before the token:
+
+```
+headers: {
+  authorization: Bearer <token>
+}
+```

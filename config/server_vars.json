@@ -1,6 +1,6 @@
 {
   "PORT": "number",
-  "BASE_MEDIA_URL": "https://limitless-shore-18716.herokuapp.com/",
-  "DATABASE_URL": "https://limitless-shore-18716.herokuapp.com/",
-  "POPULAR_LIMIT": "10"
+  "BASE_MEDIA_URL": "string",
+  "DATABASE_URL": "string",
+  "POPULAR_LIMIT": "number"
 }

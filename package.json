@@ -28,7 +28,8 @@
     "pg-native": "1.8.1",
     "q": "1.4.1",
     "request": "2.60.0",
-    "sequelize": "3.4.1"
+    "sequelize": "3.4.1",
+    "dialect": "1.0.4"
   },
   "devDependencies": {
     "gulp": "3.9.0",

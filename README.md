@@ -18,3 +18,16 @@ Ensure you have `gulp` installed globally (`npm install -g gulp`) then run
 
 You can run the tests automatically after every change by using the `gulp
 watch` command.
+
+## API Commands
+/recipes
+
+/locations
+
+/information
+
+/recipes&popular
+
+/recipes&featured
+
+/recipes&since=<date>

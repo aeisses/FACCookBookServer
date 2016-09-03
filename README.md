@@ -26,8 +26,8 @@ watch` command.
 
 /information
 
-/recipes&popular
+/recipes?popular=true
 
-/recipes&featured
+/recipes?featured=true
 
-/recipes&since=<date>
+/recipes?since=01/01/2014

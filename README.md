@@ -31,3 +31,6 @@ watch` command.
 /recipes?featured=true
 
 /recipes?since=01/01/2014
+
+POST
+/recipes/vote

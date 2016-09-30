@@ -30,8 +30,11 @@ function main() {
     var endpoint = argv.endpoint || 'https://faccookbook.herokuapp.com';
 
     async.each(data.recipes, function(recipe, next) {
+      var id = recipe.id;
+      delete recipe.id;
+
       request({
-        url: endpoint + '/recipes',
+        url: endpoint + '/recipes/' + id,
         method: 'patch',
         json: recipe
       }, function(err, res, body) {

@@ -33,4 +33,5 @@ watch` command.
 /recipes?since=01/01/2014
 
 POST
-/recipes/vote
+/recipes/<id>/vote
+JSON Body: { "direction" : "<up || down>" }

@@ -27,8 +27,8 @@
     "pg-hstore": "2.3.2",
     "pg-native": "~3.0.1",
     "q": "1.4.1",
-    "request": "~2.68.0",
-    "sequelize": "~3.20.1"
+    "request": "2.68.0",
+    "sequelize": "3.20.1"
   },
   "devDependencies": {
     "gulp": "3.9.0",
